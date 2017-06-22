@@ -1,0 +1,121 @@
+<!--
+	Non-functional hosts:
+		Certificate mismatch:
+			- chat1.corp.ch.vshn.net
+			- lam1.corp.ch.vshn.net
+			- owncloud2.corp.ch.vshn.net
+			- apt1.ix.gtg.ch.vshn.net
+			- graphite1.es.rma.ch.vshn.net
+			- portal1.es.rma.ch.vshn.net
+			- puppetdb1.es.rma.ch.vshn.net
+			- monitoring1.nn.zrh.ch.vshn.net
+			- cloud1.fwu.cust.vshn.net
+			- owncloud1.fwu.cust.vshn.net
+			- atlassian1.heptagon.cust.vshn.net
+			- rheingold1.iresults.cust.vshn.net
+			- test.jmag.cust.vshn.net
+			- test1.jmag.cust.vshn.net
+			- test2.jmag.cust.vshn.net
+			- gitlab1.mrut.cust.vshn.net
+			- hosting2.placeb.cust.vshn.net
+			- production1.sirop.cust.vshn.net
+			- app1.prod.hosting.taskfleet.cust.vshn.net
+			- gitlabci.vshn.net
+			- influx1.monitoring.vshn.net
+		Connection refused:
+			- backup1.ix.gtg.ch.vshn.net
+			- gw-vlan208.ix.gtg.ch.vshn.net
+			- gw-vlan210.ix.gtg.ch.vshn.net
+			- gw-vlan401.ix.gtg.ch.vshn.net
+			- gw-vlan408.ix.gtg.ch.vshn.net
+			- gw-vlan412.ix.gtg.ch.vshn.net
+			- gw-vlan416.ix.gtg.ch.vshn.net
+			- gw-vlan417.ix.gtg.ch.vshn.net
+			- gw-vlan418.ix.gtg.ch.vshn.net
+			- gw-vlan421.ix.gtg.ch.vshn.net
+			- fw1b.es.rma.ch.vshn.net
+			- puppet1.es.rma.ch.vshn.net
+			- rt2.es.rma.ch.vshn.net
+			- app1.prod.gines.cust.vshn.net
+			- kolab1.vshn.net
+		Timeout on https:
+			- backup4.ix.gtg.ch.vshn.net
+			- fw2.ix.gtg.ch.vshn.net
+			- fw2a.ix.gtg.ch.vshn.net
+			- fw2b.ix.gtg.ch.vshn.net
+			- ns-int3.ix.gtg.ch.vshn.net
+			- ns-int4.ix.gtg.ch.vshn.net
+			- ns2ng.ix.gtg.ch.vshn.net
+			- office.ch.vshn.net
+			- backup3.es.rma.ch.vshn.net
+			- fw1.es.rma.ch.vshn.net
+			- fw1a.es.rma.ch.vshn.net
+			- gw-vlan304.es.rma.ch.vshn.net
+			- gw-vlan309.es.rma.ch.vshn.net
+			- gw-vlan310.es.rma.ch.vshn.net
+			- gw-vlan701.es.rma.ch.vshn.net
+			- gw-vlan709.es.rma.ch.vshn.net
+			- gw-vlan711.es.rma.ch.vshn.net
+			- gw-vlan712.es.rma.ch.vshn.net
+			- gw-vlan714.es.rma.ch.vshn.net
+			- gw-vlan715.es.rma.ch.vshn.net
+			- jump1.es.rma.ch.vshn.net
+			- mxin1.es.rma.ch.vshn.net
+			- ns-int1.es.rma.ch.vshn.net
+			- ns-int2.es.rma.ch.vshn.net
+			- ns1ng.es.rma.ch.vshn.net
+			- rt1.es.rma.ch.vshn.net
+			- bonding1.rt1.es.rma.ch.vshn.net
+			- test1.diagonal.cust.vshn.net
+			- web1.diagonal.cust.vshn.net
+			- dc1.itigo.cust.vshn.net
+			- kolab1.itigo.cust.vshn.net
+			- ovpn1.itigo.cust.vshn.net
+			- cirunner1.migros.cust.vshn.net
+			- jumphost1.migros.cust.vshn.net
+			- fw1.six.cust.vshn.net
+			- librenms.starticket.cust.vshn.net
+			- mxout1.tocco.cust.vshn.net
+			- mxout1.vshn.net
+			- ns1.vshn.net
+		Unexpected http status code:
+			- cache1.ix.gtg.ch.vshn.net
+			- cache2.cloudscale.vshn.net
+			- exabgp1.cloudscale.vshn.net
+			- exabgp2.cloudscale.vshn.net
+			- dev-web1.jmag.cust.vshn.net
+-->
+<ruleset name="Vshn.net">
+	<target host="account.vshn.net" />
+	<target host="status2.corp.ch.vshn.net" />
+	<target host="appuio.status2.corp.ch.vshn.net" />
+	<target host="cloudscale.status2.corp.ch.vshn.net" />
+	<target host="control.vshn.net" />
+	<target host="web1.jmag.cust.vshn.net" />
+	<target host="prod.erp.infra1.lehner.cust.vshn.net" />
+	<target host="test.erp.infra1.lehner.cust.vshn.net" />
+	<target host="octopus-web-php56.octopus.cust.vshn.net" />
+	<target host="phpmyadmin.octopus.cust.vshn.net" />
+	<target host="dev-web1.smhv.cust.vshn.net" />
+	<target host="web1.smhv.cust.vshn.net" />
+	<target host="vita.cust.vshn.net" />
+	<target host="dashboard.vshn.net" />
+	<target host="git.vshn.net" />
+	<target host="grafana.vshn.net" />
+	<target host="logs.vshn.net" />
+	<target host="api.logs.vshn.net" />
+	<target host="monitoring.vshn.net" />
+	<target host="master1.monitoring.vshn.net" />
+	<target host="monitoring-legacy.vshn.net" />
+	<target host="puppet-adaptor.vshn.net" />
+	<target host="registry.vshn.net" />
+	<target host="status.vshn.net" />
+	<target host="ticket.vshn.net" />
+	<target host="appuio.ch.vshnweb1.vshn.net" />
+	<target host="test.appuio.ch.vshnweb1.vshn.net" />
+	<target host="wiki.vshn.net" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>
